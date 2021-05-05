@@ -3,11 +3,23 @@
 	padding: 0px;
 }
 
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .container{
     background-color: #FCE8E9;
     border-radius: 32px;
-    height: 95vh;
-    width: 95vh;
+    width: 96vw;
+    height: 4300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav ul li {
     list-style: none;
@@ -15,42 +27,62 @@ nav ul li {
     font-size: 0.94em;
 }
 
+a{
+    text-decoration: none;
+    color:black;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+
+nav ul{
+    background-color:#F8C0C7;
+    border-radius: 32px;
+    height: 80px;
+    width: 94vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -130px;
+}
+
 header img {
-    width: 175px;
-    height: 175px;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
 
 main img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
-body{
-    display: grid;
-    grid-template-columns: 1fr;
-  
-    grid-template-areas: 
-          "main"
-          "overmij"
-          "cv"
-          "projecten"; 
-  }
+.overmij img{
+    width: 250px;
+    height: 250px;
+}
 
-  .main{
-    grid-area: main;
-  } 
-  
-  .overmij {
-    grid-area: overmij;
-  }
-  
-  .cv {
-    grid-area: cv;
-  }
-  
-  .projecten {
-    grid-area: projecten;
-  }
+.projecten img{
+    /* width: 844px;
+    height: 596px; */
+    width: 597px;
+    height: 422px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+
+}
 
   .overmij{
       width: 80vh;
@@ -70,3 +102,17 @@ body{
       background-color: #F8C0C7;
   }
 
+  h2{
+    font-family:'montserratextrabold';
+    font-size: 0.94em;
+  }
+
+  h3{
+    font-family:'montserratextrabold';
+    font-size: 0.94em;
+  }
+
+  p{
+    font-family:'montserratextrabold';
+    font-size: 0.94em;
+  }
