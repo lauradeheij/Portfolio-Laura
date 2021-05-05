@@ -59,3 +59,8 @@ body{
       height: 1200px;
       background-color: #F8C0C7;
   }
+
+  header > img {
+      width: 175px;
+      height: 175px;
+  }
