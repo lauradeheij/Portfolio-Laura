@@ -40,17 +40,17 @@ body{
   .overmij{
       width: 80vh;
       height: 600px;
-      color: #F8C0C7;
+      background-color: #F8C0C7;
   }
 
   .cv{
     width: 80vh;
     height:800px;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
   }
 
   .projecten{
       width: 80vh;
       height: 1200px;
-      color: #F8C0C7;
+      background-color: #F8C0C7;
   }
