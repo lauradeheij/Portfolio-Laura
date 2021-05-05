@@ -11,25 +11,40 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .container{
     background-color: #FCE8E9;
     border-radius: 32px;
-    width: 96vw;
-    height: 4300px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 95vw;
+    height: 4500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
 }
+
 nav ul li {
     list-style: none;
     font-family:'montserratextrabold';
-    font-size: 0.94em;
+    font-size: 1.2em;
 }
 
-a{
-    text-decoration: none;
-    color:black;
+nav ul{
+    background-color:#F8C0C7;
+    border-radius: 32px;
+    height: 80px;
+    width: 94vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul{
@@ -44,63 +59,187 @@ li{
     margin-top: 30px;
 }
 
-
-nav ul{
-    background-color:#F8C0C7;
-    border-radius: 32px;
-    height: 80px;
-    width: 94vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -130px;
+a{
+    text-decoration: none;
+    color:black;
 }
 
-header img {
-    width: 100px;
-    height: 100px;
+header{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+}
+
+header > img {
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    display: block;
 }
 
 main img{
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275x;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#foto1{
+    margin-left: 28vw;
+}
+
+#foto2{
+    margin-left:-45px;
+}
+
+main p{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.overmij{
+    width: 90vw;
+    height: 450px;
+    background-color: #F8C0C7;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 32px;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
 .overmij img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 30px;
 }
 
-.projecten img{
+.overmij h2{
+    margin-left: 30px;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.overmij p{
+    font-family: 'robotoregular';
+    font-size: 0.9em;
+    width: 40vw;
+    margin-left: 500px;
+    margin-top: -375px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    padding: 40px;
+}
+
+  .cv{
+    width: 90vw;
+    height: 650px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 32px;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .cv h2{
+    margin-left: 30px;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .cv p{
+    font-family: 'robotoregular';
+    font-size: 0.9em;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+
+  #opleiding{
+      margin-left: 600px;
+      margin-top: -300px;
+  }
+
+  #extra{
+      margin-left: 40px;
+      margin-top: 80px;
+  }
+
+  #hobbys{
+      margin-left: 600px;
+      margin-top: -220px;
+  }
+
+  .projecten{
+    width: 90vw;
+    height: 2600px;
+    background-color: #F8C0C7;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 32px;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .projecten h2{
+    margin-left: 30px;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .projecten h3{
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-size: 1.5em;
+      margin-bottom: 20px;
+  }
+
+  .projecten img{
     /* width: 844px;
     height: 596px; */
     width: 597px;
     height: 422px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 32px;
     display: flex;
     align-items: center;
-
+    margin-bottom: 70px;
 }
 
-  .overmij{
-      width: 80vh;
-      height: 600px;
-      background-color: #F8C0C7;
-  }
+footer{
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
+    background-color: #F8C0C7;
+    height:60px;
+    padding: 10px;
+}
 
-  .cv{
-    width: 80vh;
-    height:800px;
-    background-color: #FFFFFF;
-  }
+footer p{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+#linkedin{
+    margin-left: 380px;
+    margin-top: -30px;
+}
 
-  .projecten{
-      width: 80vh;
-      height: 1200px;
-      background-color: #F8C0C7;
-  }
+footer img{
+    margin-left: 600px;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+}
 
   h2{
     font-family:'montserratextrabold';
@@ -113,6 +252,6 @@ main img{
   }
 
   p{
-    font-family:'montserratextrabold';
+    font-family:'robotoregular';
     font-size: 0.94em;
   }
