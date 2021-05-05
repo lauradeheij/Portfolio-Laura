@@ -9,6 +9,11 @@
     height: 95vh;
     width: 95vh;
 }
+nav ul li {
+    list-style: none;
+    font-family:'montserratextrabold';
+    font-size: 0.94em;
+}
 
 body{
     display: grid;
