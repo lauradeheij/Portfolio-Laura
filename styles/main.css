@@ -60,12 +60,12 @@ body{
       background-color: #F8C0C7;
   }
 
-  header > img {
+  header img {
       width: 175px;
       height: 175px;
   }
 
-  main > img{
+  main img{
       width: 400px;
       height: 400px;
   }
