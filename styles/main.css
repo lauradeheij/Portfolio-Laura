@@ -1,0 +1,56 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+    background-color: #FCE8E9;
+    border-radius: 32px;
+    height: 95vh;
+    width: 95vh;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+  
+    grid-template-areas: 
+          "main"
+          "overmij"
+          "cv"
+          "projecten"; 
+  }
+
+  .main{
+    grid-area: main;
+  } 
+  
+  .overmij {
+    grid-area: overmij;
+  }
+  
+  .cv {
+    grid-area: cv;
+  }
+  
+  .projecten {
+    grid-area: projecten;
+  }
+
+  .overmij{
+      width: 80vh;
+      height: 600px;
+      color: #F8C0C7;
+  }
+
+  .cv{
+    width: 80vh;
+    height:800px;
+    color: #FFFFFF;
+  }
+
+  .projecten{
+      width: 80vh;
+      height: 1200px;
+      color: #F8C0C7;
+  }
