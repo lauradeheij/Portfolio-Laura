@@ -138,7 +138,7 @@ main p{
 
   .cv{
     width: 90vw;
-    height: 650px;
+    height: 690px;
     background-color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
@@ -163,17 +163,17 @@ main p{
 
   #opleiding{
       margin-left: 600px;
-      margin-top: -300px;
+      margin-top: -360px;
   }
 
   #extra{
       margin-left: 40px;
-      margin-top: 80px;
+      margin-top: 140px;
   }
 
   #hobbys{
       margin-left: 600px;
-      margin-top: -220px;
+      margin-top: -290px;
   }
 
   .projecten{
